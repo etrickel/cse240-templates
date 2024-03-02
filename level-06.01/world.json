@@ -1,0 +1,2386 @@
+{"rooms":
+ [
+     {
+  "id": 1,
+  "name": "The Temple Of Mota",
+  "description": "You are in the southern end of the temple hall in the Temple of Mota. The temple has been constructed from giant marble blocks, eternal in appearance, and most of the walls are covered by ancient wall paintings picturing gods, giants and peasants.    Large steps lead down through the grand temple gate, descending the huge mound upon which the temple is built and ends on the temple square below.    Equally large steps lead UP through a small door into the ENTRANCE to MUD  SCHOOL.  (type 'up' to go to MUD SCHOOL.)  A small plaque is on this wall. ",
+  "south": 5,
+  "north": 54,
+  "east": null,
+  "west": null,
+  "object": 5,
+  "starting": true
+},
+{
+  "id": 2,
+  "name": "Cleric's Inner Sanctum",
+  "description": "This is the inner sanctum.  A picture of the mighty Mota is hanging on the wall, just above the altar which is set against the western wall.  A well in the middle of the floor leads down into darkness.  Vile smells waft from the depths. ",
+  "south": null,
+  "north": null,
+  "east": 3,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 3,
+  "name": "Cleric's Bar",
+  "description": "The bar is one of the finest in the land, lucky it is members only.  Fine furniture is set all around the room.  A small sign is hanging on the wall. ",
+  "south": 4,
+  "north": null,
+  "east": null,
+  "west": 2,
+  "object": 22,
+  "starting": false
+},
+{
+  "id": 4,
+  "name": "Entrance to Cleric's Guild",
+  "description": "The entrance hall is a small modest room, reflecting the true nature of the Clerics.  The exit leads east to the temple square.  A small entrance to the bar is in the northern wall. ",
+  "south": null,
+  "north": 3,
+  "east": 5,
+  "west": null,
+  "object": 365,
+  "starting": false
+},
+{
+  "id": 5,
+  "name": "The Temple Square",
+  "description": "You are standing on the temple square.  Huge marble steps lead up to the temple gate.  The entrance to the Clerics Guild is to the west, and the old Grunting Boar Inn, is to the east.  Just south of here you see the market square, the center of Midgaard. ",
+  "south": 14,
+  "north": 1,
+  "east": 6,
+  "west": 4,
+  "object": 135,
+  "starting": false
+},
+{
+  "id": 6,
+  "name": "Entrance to the Grunting Boar Inn",
+  "description": "You are standing in the entrance hall of the Grunting Boar Inn.  The hall has been wisely decorated with simple but functional furniture.  A small staircase leads up to the bedroom area and the bar is to the east. ",
+  "south": null,
+  "north": null,
+  "east": 7,
+  "west": 5,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 7,
+  "name": "The Grunting Boar",
+  "description": "You are standing in the bar.  The bar is set against the northern wall, old archaic writing, carvings and symbols cover its top.  A fireplace is built into the western wall, and through the southeastern windows you can see the temple square.  This place makes you feel like home. A small sign with big letters is fastened to the bar. ",
+  "south": null,
+  "north": null,
+  "east": null,
+  "west": 6,
+  "object": 22,
+  "starting": false
+},
+{
+  "id": 8,
+  "name": "The Bedroom Area",
+  "description": "Need some rest? Sleep in one of our many beds! The staircase leads down to the entrance hall. ",
+  "south": null,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": 155,
+  "starting": false
+},
+{
+  "id": 9,
+  "name": "The Bakery",
+  "description": "You are standing inside the small bakery.  A sweet scent of Danish and fine bread fills the room.  The bread and Danish are arranged in fine order on the shelves, and seem to be of the finest quality. A small sign is on the counter. ",
+  "south": 13,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": 22,
+  "starting": false
+},
+{
+  "id": 10,
+  "name": "The General Store",
+  "description": "You are inside the general store.  All sorts of items are stacked on shelves behind the counter, safely out of your reach. A small note hangs on the wall. ",
+  "south": 15,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": 22,
+  "starting": false
+},
+{
+  "id": 11,
+  "name": "The Weapon Shop",
+  "description": "You are inside the weapon shop.  There is a small note on the counter. ",
+  "south": 16,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": 22,
+  "starting": false
+},
+{
+  "id": 12,
+  "name": "Main Street",
+  "description": "You are at the end of the main street of Midgaard.  South of here is the entrance to the Guild of Magic Users.  The street continues east towards the market square.  The magic shop is to the north and to the west is the city gate. ",
+  "south": 17,
+  "north": 33,
+  "east": 13,
+  "west": 40,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 13,
+  "name": "Main Street",
+  "description": "You are on the main street passing through the City of Midgaard.  South of here is the entrance to the Armoury, and the bakery is to the north.  East of here is the market square. ",
+  "south": 20,
+  "north": 9,
+  "east": 14,
+  "west": 12,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 14,
+  "name": "Market Square",
+  "description": "You are standing on the market square, the famous Square of Midgaard. A large, peculiar looking statue is standing in the middle of the square. Roads lead in every direction, north to the temple square, south to the common square, east and westbound is the main street. ",
+  "south": 25,
+  "north": 5,
+  "east": 15,
+  "west": 13,
+  "object": 365,
+  "starting": false
+},
+{
+  "id": 15,
+  "name": "The Main Street",
+  "description": "You are on Main Street crossing through town.  To the north is the general store, and the main street continues east.  To the west you see and hear the market place and to the south is the Jeweller's Shop. ",
+  "south": 34,
+  "north": 10,
+  "east": 16,
+  "west": 14,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 16,
+  "name": "The Main Street",
+  "description": "The main street, to the north is the weapon shop and to the south is the Guild of Swordsmen.  To the east you leave town and to the west the street leads to the market square. ",
+  "south": 21,
+  "north": 11,
+  "east": 41,
+  "west": 15,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 17,
+  "name": "Entrance to Mage's Guild",
+  "description": "The entrance hall is a small, poor lighted room. ",
+  "south": 18,
+  "north": 12,
+  "east": null,
+  "west": null,
+  "object": 365,
+  "starting": false
+},
+{
+  "id": 18,
+  "name": "Mage's Bar",
+  "description": "The bar is one of the wierdest in the land.  Mystical images float around the air.  Illusions of fine furniture appear all around the room. ",
+  "south": null,
+  "north": 17,
+  "east": 19,
+  "west": null,
+  "object": 22,
+  "starting": false
+},
+{
+  "id": 19,
+  "name": "Mage's Laboratory",
+  "description": "This is the Magical Experiments Laboratory.  Dark smoke-stained stones arch over numerous huge oaken tables, most of these cluttered with strange- looking pipes and flasks.  The floor is covered with half-erased pentagrams and even weirder symbols, and a blackboard in a dark corner has only been partially cleaned, some painful-looking letters faintly visible.  A well in the middle of the floor leads down into darkness.  Vile smells waft from the depths. ",
+  "south": null,
+  "north": null,
+  "east": null,
+  "west": 18,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 20,
+  "name": "The Armoury",
+  "description": "The armoury with all kinds of armours on the walls and in the window.  You see helmets, shields and chain mails.  To the north is the main street. On the wall is a small note. ",
+  "south": null,
+  "north": 13,
+  "east": null,
+  "west": null,
+  "object": 22,
+  "starting": false
+},
+{
+  "id": 21,
+  "name": "Entrance Hall to the Guild of Swordsmen",
+  "description": "The entrance hall to the Guild of Swordsmen.  A place where one has to be careful not to say something wrong (or right).  To the east is the bar and to the north is the main street. ",
+  "south": null,
+  "north": 16,
+  "east": 22,
+  "west": null,
+  "object": 349,
+  "starting": false
+},
+{
+  "id": 22,
+  "name": "The Bar of Swordsmen",
+  "description": "The bar of swordsmen, once upon a time beautifully furnished.  But now the furniture is all around you in small pieces.  To the south is the yard, and to the west is the entrance hall. ",
+  "south": 23,
+  "north": null,
+  "east": null,
+  "west": 21,
+  "object": 22,
+  "starting": false
+},
+{
+  "id": 23,
+  "name": "The Tournament and Practice Yard",
+  "description": "The practice yard of the fighters.  To the north is the bar.  A well leads down into darkness. ",
+  "south": null,
+  "north": 22,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 24,
+  "name": "Eastern End of Poor Alley",
+  "description": "You are at the poor alley. South of here is the Grubby Inn and to the east you see common square. Melancholy's map shop is north. The alley continues  further west. ",
+  "south": 48,
+  "north": 160,
+  "east": 25,
+  "west": 44,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 25,
+  "name": "The Common Square",
+  "description": "The common square, people pass you, talking to each other.  To the west is the poor alley and to the east is the dark alley.  To the north, this square is connected to the market square.  From the south you notice a nasty smell. ",
+  "south": 30,
+  "north": 14,
+  "east": 26,
+  "west": 24,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 26,
+  "name": "The Dark Alley",
+  "description": "The dark alley, to the west is the common square and to the south is the Guild of Thieves.  Grebe's Tavern, the famous sailor's dive, is north. The alley continues east. ",
+  "south": 27,
+  "north": 352,
+  "east": 45,
+  "west": 25,
+  "object": 21,
+  "starting": false
+},
+{
+  "id": 27,
+  "name": "Entrance Hall to the Guild of Thieves",
+  "description": "The entrance hall to the thieves' and assassins' guild.  A place where you can lose both your life and your money, if you are not careful.  To the north is the dark alley and to the east is the thieves' bar. ",
+  "south": null,
+  "north": 26,
+  "east": 28,
+  "west": null,
+  "object": 349,
+  "starting": false
+},
+{
+  "id": 28,
+  "name": "The Thieves Bar",
+  "description": "The bar of the thieves.  Once upon a time this place was beautifully furnished, but now it seems almost empty.  To the south is the yard, and to the west is the entrance hall.    (Maybe the furniture has been stolen?!) ",
+  "south": 29,
+  "north": null,
+  "east": null,
+  "west": 27,
+  "object": 22,
+  "starting": false
+},
+{
+  "id": 29,
+  "name": "The Secret Yard",
+  "description": "The secret practice yard of thieves and assassins.  To the north is the bar.  A well leads down into darkness. ",
+  "south": null,
+  "north": 28,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 30,
+  "name": "The Dump",
+  "description": "The dump, where the people from the city drop their garbage.  Through the garbage you can see a large junction of pipes, looks like the entrance to the sewer system.  South of here you see the river and to the north is the common square.  A rickety old bridge leads south to the promenade. ",
+  "south": 254,
+  "north": 25,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 31,
+  "name": "The Pet Shop",
+  "description": "The Pet Shop is a small crowded store, full of cages and animals of various sorts and sizes.  There is a sign on the wall. ",
+  "south": 45,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 32,
+  "name": "Pet Shop Store",
+  "description": "This is the small dark room in which the Pet Shop Boy keeps his pets. It is vital that this room be immediately after the pet shop. ",
+  "south": null,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 33,
+  "name": "The Magic Shop",
+  "description": "You are in a small room that smells of rare chemicals and spices. Dividing the room in two is a large desk, and on the wall behind it are numerous shelves crammed with jars, bottles, books and scrolls of all sorts and sizes. ",
+  "south": 12,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 34,
+  "name": "The Jeweller's Shop",
+  "description": "You are in a small, beautifully furnished room.  The warm light emanating from the small oil lamps on the walls is reflected in the hard, polished surface of the big mahogany desk that stands in the centre of the room. A small sign with golden letters stands on the desk. ",
+  "south": null,
+  "north": 15,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 35,
+  "name": "The Leather Shop",
+  "description": "An acrid smell fills this large room.  Along the walls are numerous shelves containing all sorts of animal hide and in the crackling fireplace hangs a big iron pot with boiling water.  In the middle of the room is a large oak table. A wooden sign is hanging above the fireplace. ",
+  "south": 44,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 40,
+  "name": "Inside the West Gate of Midgaard",
+  "description": "You are by two small towers that have been built into the city wall and connected with a footbridge across the heavy wooden gate.  Main Street leads east and Wall Road leads both north and south from here. ",
+  "south": 42,
+  "north": 257,
+  "east": 12,
+  "west": 52,
+  "object": 365,
+  "starting": false
+},
+{
+  "id": 41,
+  "name": "Inside the East Gate of Midgaard",
+  "description": "You are by two small towers that have been built into the city wall and connected with a footbridge across the heavy wooden gate.  Main Street leads west from here.  Wall road crosses the street, heading north and south along the city wall. ",
+  "south": 250,
+  "north": 267,
+  "east": 53,
+  "west": 16,
+  "object": 365,
+  "starting": false
+},
+{
+  "id": 42,
+  "name": "Wall Road",
+  "description": "You are walking next to the western city wall.  The road continues further south and the city gate is just north of here. ",
+  "south": 43,
+  "north": 40,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 43,
+  "name": "Wall Road",
+  "description": "You are walking next to the western city wall.  Wall Road continues further north and south.  A small, poor alley leads east. Some letters have been written on the wall here. ",
+  "south": 47,
+  "north": 42,
+  "east": 44,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 44,
+  "name": "Poor Alley",
+  "description": "You are in narrow and dirty alley leading east and west.  The leather shop is to the north. ",
+  "south": 170,
+  "north": 35,
+  "east": 24,
+  "west": 43,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 45,
+  "name": "Alley at Levee",
+  "description": "You are standing in the alley which continues east and west.  South of here you see the levee.  North is the Pet Shop. ",
+  "south": 49,
+  "north": 31,
+  "east": 46,
+  "west": 26,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 46,
+  "name": "Eastern end of Alley",
+  "description": "You are standing at the eastern end of the alley,  near the city walls.   Wall road loops around the city to your east, and you can see an old  three-story warehouse to the south.  The Fountain of Youth Apothecary is  north. ",
+  "south": 50,
+  "north": 56,
+  "east": 251,
+  "west": 45,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 47,
+  "name": "Wall Road",
+  "description": "You are standing on the road next to the western city wall which continues north.  South of here is a bridge across the river.  To the east, you see an odd looking building painted bright orange with purple trim... it must be the Mob Factory! ",
+  "south": 51,
+  "north": 43,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 48,
+  "name": "Grubby Inn",
+  "description": "You are inside the old Grubby Inn.  This place has not been cleaned for several decades, vile smells make you dizzy. ",
+  "south": null,
+  "north": 24,
+  "east": null,
+  "west": null,
+  "object": 22,
+  "starting": false
+},
+{
+  "id": 49,
+  "name": "Levee",
+  "description": "You are at the levee.  South of here you see the river gently flowing west. The river bank is very low making it possible to enter the river.  Directly across the river you can see a small boat landing built off of Kate's Diner. ",
+  "south": 203,
+  "north": 45,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 50,
+  "name": "Abandoned Warehouse",
+  "description": "You are inside the only room in the old warehouse.  The place is very dusty and appears to have been unused for many years.  The skylight spills violet-tinged light. ",
+  "south": null,
+  "north": 46,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 51,
+  "name": "On the Bridge",
+  "description": "You are standing on the stone bridge crosses the river.  The bridge is built out from the western city wall and the river flows west through an opening in the wall ten feet below the bridge. ",
+  "south": 100,
+  "north": 47,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 52,
+  "name": "Outside the West Gate of Midgaard",
+  "description": "You are by two small towers that have been built into the city wall and connected with a footbridge across the heavy wooden gate.  To the west you can see the edge of a big forest. A small dusty trail leads north along the wall. ",
+  "south": null,
+  "north": null,
+  "east": 40,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 53,
+  "name": "Outside the East Gate of Midgaard",
+  "description": "You are by two small towers that have been built into the city wall and connected with a footbridge across the heavy wooden gate.  To the east the plains stretch out in the distance. To the north a small dusty trail follow the city wall. ",
+  "south": null,
+  "north": null,
+  "east": null,
+  "west": 41,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 54,
+  "name": "By the Temple Altar",
+  "description": "You are by the temple altar in the northern end of the Temple of Mota. A huge altar made from white polished marble is standing in front of you and behind it is a ten foot tall sitting statue of Odin, the King of the Gods. The back of the altar opens into a a beautiful atrium, above which can be seen a rainbow. ",
+  "south": 1,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": 10,
+  "starting": false
+},
+{
+  "id": 56,
+  "name": "The Fountain of Youth Apothecary",
+  "description": "An old man putters around behind the counter, making strange love potions and curative philtres.  He turns as you enter, and looks on with avarice. Judging from the furnishings, he's been made very wealthy by his trade. ",
+  "south": 46,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 57,
+  "name": "In the air...",
+  "description": "WOW you can fly!  You are floating in the air above Temple Square of Midgaard. ",
+  "south": null,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 100,
+  "name": "Northwest end of Concourse",
+  "description": "You are at the concourse, the city wall is just west.  A small promenade goes east, and the bridge is just north of here.  The concourse continues south along the city wall. ",
+  "south": 270,
+  "north": 51,
+  "east": 101,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 101,
+  "name": "Promenade",
+  "description": "The river gently flows west just north of here.  The promenade continues further east and to the west you see the city wall.  Park Road leads south from here. ",
+  "south": 131,
+  "north": null,
+  "east": 102,
+  "west": 100,
+  "object": 134,
+  "starting": false
+},
+{
+  "id": 102,
+  "name": "Promenade",
+  "description": "The river gently flows west just north of here.  The promenade continues both east and west.  A rickety bridge crosses the river to the north, towards the city dump (fortunately, the wind is blowing towards the dump today).  South of here you see the entrance to the park, and a small building seems to be just west of the entrance.  Austral Square, home of Kate's Diner, lies to your east. ",
+  "south": 105,
+  "north": 254,
+  "east": 103,
+  "west": 101,
+  "object": 134,
+  "starting": false
+},
+{
+  "id": 103,
+  "name": "Austral Square",
+  "description": "The Promenade opens here onto Austral Square, on the south bank of the Midgaard River.  All around you is the bustle of Southern Midgaard-- shopkeepers on break, a town gossip or two prattling away.  You hear the river lapping at the pilings of the dock by Kate's Diner, which is to your north.  Emerald Avenue begins to the south, the Promenade continues west, and the concourse ends to your east. ",
+  "south": 132,
+  "north": 150,
+  "east": 104,
+  "west": 102,
+  "object": 134,
+  "starting": false
+},
+{
+  "id": 104,
+  "name": "Northeast end of Concourse",
+  "description": "You are at the Concourse.  The city wall is just east and Austral Square, home of Kate's Diner, is west.  Looking across the river you see an old   warehouse.  A strong stone bridge crosses the river to the north, where the concourse becomes wall road.  The Concourse continues south along the wall. ",
+  "south": 272,
+  "north": 253,
+  "east": null,
+  "west": 103,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 105,
+  "name": "Park Entrance",
+  "description": "You are standing just inside the small park of Midgaard.  To the north is the promenade and a small path leads south into the park.  To your east is the famous Park Cafe. ",
+  "south": 108,
+  "north": 102,
+  "east": 106,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 106,
+  "name": "Park Cafe",
+  "description": "You are inside Park Cafe, a very well lighted, cosy place. The cafe is built from large logs. Through the windows in the northern wall you see the river, and through the southern window you see many vigorous colorful plants. ",
+  "south": null,
+  "north": null,
+  "east": null,
+  "west": 105,
+  "object": 200,
+  "starting": false
+},
+{
+  "id": 107,
+  "name": "Small path through the park",
+  "description": "You are walking along a small path through the park.  The path continues south and east. ",
+  "south": 113,
+  "north": null,
+  "east": 108,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 108,
+  "name": "Small path in the park",
+  "description": "You are standing on a small path inside the park.  The park entrance is just north of here, and Park Cafe is just east of the entrance.  The path leads further east and west. ",
+  "south": null,
+  "north": 105,
+  "east": 109,
+  "west": 107,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 109,
+  "name": "Small path in the park",
+  "description": "You are on a small path running through the park.  It continues west and south and just north of here you see the southern wall of Park Cafe. ",
+  "south": 115,
+  "north": null,
+  "east": null,
+  "west": 108,
+  "object": 365,
+  "starting": false
+},
+{
+  "id": 110,
+  "name": "Cityguard Head Quarters",
+  "description": "You are inside a tidy office.  A big desk made from dark wood is standing in the centre of the room. ",
+  "south": null,
+  "north": null,
+  "east": 111,
+  "west": 142,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 111,
+  "name": "Park Road",
+  "description": "The road continues north and south.  A building is just west of here, you notice a sign on the door.  The park entrance is to the east. ",
+  "south": 118,
+  "north": 131,
+  "east": 112,
+  "west": 110,
+  "object": 365,
+  "starting": false
+},
+{
+  "id": 112,
+  "name": "Western Park Entrance",
+  "description": "You are standing at the western end of the park.  A small path leads east into the park and going west through the entrance you will reach Park Road. ",
+  "south": null,
+  "north": null,
+  "east": 113,
+  "west": 111,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 113,
+  "name": "A path in the park",
+  "description": "You are in the park.  The paths lead north and west.  Westwards is the park entrance and to the east you see a small pond. ",
+  "south": null,
+  "north": 107,
+  "east": 114,
+  "west": 112,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 114,
+  "name": "The Pond",
+  "description": "You are swimming around in the pond, feeling rather stupid.  You can get back on the path from the eastern and western end of the pond. ",
+  "south": null,
+  "north": null,
+  "east": 115,
+  "west": 113,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 115,
+  "name": "A path in the park",
+  "description": "You are in the park.  The paths lead north and east.  Eastwards is the park entrance and to the west you see a small pond. ",
+  "south": null,
+  "north": 109,
+  "east": 116,
+  "west": 114,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 116,
+  "name": "Eastern Park Entrance",
+  "description": "You are standing at the eastern end of the park.  A small path leads west into the park.  Going east through the entrance you will reach Emerald Avenue. ",
+  "south": null,
+  "north": null,
+  "east": 117,
+  "west": 115,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 117,
+  "name": "Emerald Avenue",
+  "description": "You are at Emerald Avenue which continues north and south.  To the west is the park entrance and to the east is the not very big Town Hall of Midgaard. ",
+  "south": 119,
+  "north": 132,
+  "east": 137,
+  "west": 116,
+  "object": 365,
+  "starting": false
+},
+{
+  "id": 118,
+  "name": "Park Road",
+  "description": "You are on Park Road which leads north and south. ",
+  "south": 135,
+  "north": 111,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 119,
+  "name": "Emerald Avenue",
+  "description": "You are standing at a bend on Emerald Avenue.  The road leads north and west. To the east, you see some run-down slums...it looks like the bad part of town. ",
+  "south": null,
+  "north": 117,
+  "east": null,
+  "west": 133,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 120,
+  "name": "Road Crossing",
+  "description": "You are in the middle of the road cross.  Roads lead in all directions. A huge black iron chain as thick as a tree trunk is fastened into the ground at the centre of the road cross.  Its other end leads directly upwards towards the sky. A road sign is here. ",
+  "south": 134,
+  "north": 133,
+  "east": 136,
+  "west": 135,
+  "object": 365,
+  "starting": false
+},
+{
+  "id": 121,
+  "name": "Emerald Avenue",
+  "description": "You are standing at a bend on Emerald Avenue.  The road leads south and east. ",
+  "south": 125,
+  "north": null,
+  "east": 134,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 122,
+  "name": "Park Road",
+  "description": "You are on Park Road which leads south and north.  Elm Street is east of here. ",
+  "south": 126,
+  "north": 136,
+  "east": 123,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 123,
+  "name": "Elm Street",
+  "description": "You are on Elm street.  Park Road is to the west and Elm Street continues in eastward direction. ",
+  "south": null,
+  "north": null,
+  "east": 124,
+  "west": 122,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 124,
+  "name": "Elm Street",
+  "description": "You near the end of Elm Street.  An old elm tree grows here.  A heavy iron grating is south, surrounding the city's graveyard.  You can see a sign hanging on the grate.  The concourse joins Elm Street to the east, and the street ends to the north near a run-down neighborhood. ",
+  "south": null,
+  "north": 144,
+  "east": 273,
+  "west": 123,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 125,
+  "name": "Emerald Avenue",
+  "description": "You are on Emerald Avenue which continues north. The Concourse is south of here. ",
+  "south": 128,
+  "north": 121,
+  "east": null,
+  "west": null,
+  "object": 365,
+  "starting": false
+},
+{
+  "id": 126,
+  "name": "Park Road",
+  "description": "You are on Park Road which continues north.  The Concourse is south of here. ",
+  "south": 129,
+  "north": 122,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 127,
+  "name": "On the Concourse",
+  "description": "You are at the southwest corner of the city wall.  The Concourse leads both north and east. ",
+  "south": null,
+  "north": 271,
+  "east": 128,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 128,
+  "name": "On the Concourse",
+  "description": "You are walking around the scenic concourse as it continues its path around the city of Midgaard.  The south gate of the city lies to your east, and the  southwestern corner of the city wall is west.  Emerald Avenue stretches out to the north. ",
+  "south": null,
+  "north": 125,
+  "east": 255,
+  "west": 127,
+  "object": 351,
+  "starting": false
+},
+{
+  "id": 129,
+  "name": "On the Concourse",
+  "description": "The concourse continues its path around the city.  The southern gates of the city are west of here, and park road lies north.  The northeastern corner of the city wall is east. ",
+  "south": null,
+  "north": 126,
+  "east": 130,
+  "west": 255,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 130,
+  "name": "On the Concourse",
+  "description": "You are at the southeast corner of the city wall.  The Concourse leads both north and west. ",
+  "south": null,
+  "north": 273,
+  "east": null,
+  "west": 129,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 131,
+  "name": "Park Road",
+  "description": "You are at Park Road which continues north and south. ",
+  "south": 111,
+  "north": 101,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 132,
+  "name": "Emerald Avenue",
+  "description": "You are standing on the north end of Emerald Avenue.  To the north is  Austral Square and Kate's Diner, to the east is the small street Penny Lane. ",
+  "south": 117,
+  "north": 103,
+  "east": 139,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 133,
+  "name": "Emerald Avenue",
+  "description": "You are standing at a bend on Emerald Avenue.  To the east the road goes on and to the south is the Road Crossing. ",
+  "south": 120,
+  "north": null,
+  "east": 119,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 134,
+  "name": "Emerald Avenue",
+  "description": "You are standing at a bend on Emerald Avenue.  To the west the road goes on and to the north is the Road Crossing. ",
+  "south": null,
+  "north": 120,
+  "east": null,
+  "west": 121,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 135,
+  "name": "Park Road",
+  "description": "You are at a bend on Park Road.  To the north the road goes on and to the east is the Road Crossing.  To the south, the ancient cliffs rise from deep under the ground, forming a wall. ",
+  "south": null,
+  "north": 118,
+  "east": 120,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 136,
+  "name": "Park Road",
+  "description": "You are at a bend on Park Road.  To the south the road goes on and to the west is the Road Crossing. ",
+  "south": 122,
+  "north": null,
+  "east": null,
+  "west": 120,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 137,
+  "name": "The Waiting Room",
+  "description": "You are standing in the waiting room at the town hall.  Wooden chairs stand along the walls and a long desk is placed in the middle of the room. ",
+  "south": null,
+  "north": null,
+  "east": 138,
+  "west": 117,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 138,
+  "name": "The Mayor's Office",
+  "description": "You are in the not very big office of the Mayor of Midgaard.  A large and polished but completely empty desk is standing in front of an armchair that looks so comfortable that it most of all resembles a bed with the head end raised slightly. ",
+  "south": null,
+  "north": null,
+  "east": null,
+  "west": 137,
+  "object": 124,
+  "starting": false
+},
+{
+  "id": 139,
+  "name": "Penny Lane",
+  "description": "You are on Penny Lane.  Emerald Avenue is to the west and Penny Lane continues in eastward direction. ",
+  "south": null,
+  "north": null,
+  "east": 140,
+  "west": 132,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 140,
+  "name": "Penny Lane",
+  "description": "You are on Penny Lane.  The narrow road continues north and west, and the concourse intersects this street to the east. ",
+  "south": null,
+  "north": 141,
+  "east": 272,
+  "west": 139,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 141,
+  "name": "The end of Penny Lane",
+  "description": "You are at the end of Penny Lane.  The only exit appears to be south. ",
+  "south": 140,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": 135,
+  "starting": false
+},
+{
+  "id": 142,
+  "name": "Captain's Office",
+  "description": "You are in the Office of the Captain of the Guard.  The Midgaard Coat of Arms is hanging on the north wall and a heavy steel door is to the south. ",
+  "south": 143,
+  "north": null,
+  "east": 110,
+  "west": null,
+  "object": 350,
+  "starting": false
+},
+{
+  "id": 143,
+  "name": "The Jail",
+  "description": "You are in a dark and humid jail.  The dark stone walls are hard and cold to the touch.  A heavy steel door is to the north. ",
+  "south": null,
+  "north": 142,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 144,
+  "name": "The end of Elm Street",
+  "description": "Elm street ends here, next to a dangerous-looking run down neighborhood. You can enter the slums to the east, or head towards the graveyard to the south.  It occurs to you that this isn't the happiest section of town. ",
+  "south": 124,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 150,
+  "name": "Kate's Diner",
+  "description": "The smells of baking bread and simmering stew lead you dancing through the doorway of the diner.  No greasy spoons to be seen here-- the booth walls are covered in casual paisleys; the chairs are carved wood, rescued from garage sales.  Most tables have chess or backgammon boards carved and painted on their fingertip-smooth tops.  The refrain of some musical or other from the 1930's blends with the dusty golden light and the wonderful smells to put you completely at ease.  A huge picture window looks out over the Midgaard River, and a doorway leads north onto the dock and the South Bank river landing, while the main entrance to the south returns you to Austral Square. On most days you will find Kate here, testing a batch of stew or brewing a special pot of cinnamon coffee, eerily just in time for your arrival Pull up a chair, perhaps play a game, and take time out to talk. ",
+  "south": 103,
+  "north": 203,
+  "east": null,
+  "west": null,
+  "object": 200,
+  "starting": false
+},
+{
+  "id": 160,
+  "name": "Melancholy's Maps",
+  "description": "As you walk in, a sudden gust of wind enters the shop and sends several scraps of paper fly around the room.  You blink as the dust you've stirred  up stings your eyes, and take a look around the shop.  This shop is cluttered  with old pieces of parchment, stacks of books, and odd scraps.  A desk with  slightly less clutter than the rest of the shop is in front of you.  A scroll  case full of scrolls is behind the desk.  A bookcase is to the right of you,  and to the left is a window overlooking the Common Square.  A small door,  half hidden by a stack of books, leads to a room in the back of the shop. ",
+  "south": 24,
+  "north": 161,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 161,
+  "name": "Melancholy's Room",
+  "description": "A faint smell of incense teases your nose as you enter this room.  You  step onto a soft bearskin rug and look around.  A simple bed lies against the far wall.  At the foot of it is a sturdy, ironbound chest, most likely full of Melancholy's trappings from her adventuring days.  On a small table under a window to the east is a vase with a single white rose.  Other than that, the room is quite bare.   ",
+  "south": 160,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 170,
+  "name": "Temple Of Stupid",
+  "description": "As you enter the abandoned warehouse your eyes blink violently to adjust to the almost total darkness.  You wonder where the windows are as you step into a mud puddle in the middle of the floor.  As your eyes adjust, you realize that there are mud puddles all around the room, and this is some weird version of windows.  In a flash of revelation, you realize that you've entered the Temple of Stupid. ",
+  "south": null,
+  "north": 44,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 200,
+  "name": "Under the Bridge",
+  "description": "The arch under the bridge is covered by seaweed for one foot above the surface of the river.  The water gently flows through an opening in the lower part of the city wall. ",
+  "south": null,
+  "north": null,
+  "east": 201,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 201,
+  "name": "On the River",
+  "description": "North of here you see the miserable buildings of the poor alley.  The river flows west towards the bridge.  The riverbanks are too steep to climb. ",
+  "south": null,
+  "north": null,
+  "east": 202,
+  "west": 200,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 202,
+  "name": "On the River",
+  "description": "North of here you see the dump.  The river flows from east to west.  The riverbanks are too steep to climb.  A bridge passes overhead, connecting the dump to the promenade. ",
+  "south": null,
+  "north": null,
+  "east": 203,
+  "west": 201,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 203,
+  "name": "On the River",
+  "description": "The levee is directly north of here, and a small boat landing for Kate's Diner is to the south.  The river flows in an east west direction. ",
+  "south": 150,
+  "north": 49,
+  "east": 204,
+  "west": 202,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 204,
+  "name": "On the River",
+  "description": "You see the warehouse on the northern riverbank.  East of here the river passes under the eastern bridge and through the city wall. The banks of the  levee are west, in the direction of the current. ",
+  "south": null,
+  "north": null,
+  "east": 205,
+  "west": 203,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 205,
+  "name": "On the River",
+  "description": "The river enters from a hole in the eastern city wall.  The hole has been blocked by several vertically positioned iron bars set into the wall. Overhead you can see the stone buttresses of the eastern bridge. ",
+  "south": null,
+  "north": null,
+  "east": null,
+  "west": 204,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 250,
+  "name": "Wall Road",
+  "description": "Wall road extends north and south along the eastern walls of the city. The east gate is north of you, south is an intersection with a dark alley. You check to make sure you still have your wallet. ",
+  "south": 251,
+  "north": 41,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 251,
+  "name": "Wall Road",
+  "description": "You are walking along the eastern wall of the city, on a road extending  between the east gate and a bridge to the south.  A dark, dirty alley lies west  of here.  You step carefully around a pool of liquid...who knows what it could  be in a place this foul... ",
+  "south": 252,
+  "north": 250,
+  "east": null,
+  "west": 46,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 252,
+  "name": "Wall Road",
+  "description": "The walls of Midgaard tower above you to the east, keeping the city safe from its enemies...you hope.  An intersection with a dark alley lies north, and a bridge over the Midgaard river is south.  Beyond the bridge wall road  turns in the concourse. ",
+  "south": 253,
+  "north": 251,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 253,
+  "name": "On the Bridge",
+  "description": "You are crossing a strong stone bridge, which spans the Midgaard river. Below you, the river flows into an opening in the city wall, sealed with strong metal bars.  North of you is wall road, south of here the concourse loops around the inside of the city walls. ",
+  "south": 104,
+  "north": 252,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 254,
+  "name": "The South Bridge",
+  "description": "You are standing on a small, rickety bridge leading from the Midgaard City Dump to the much more attractive promenade of the southern parts of  Midgaard.  You can smell the stench of the dump to the north, the fresher air of the promenade seems preferable.  Below you are the swift-moving  currents of the Midgaard river. ",
+  "south": 102,
+  "north": 30,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 255,
+  "name": "Inside the South Gate of Midgaard",
+  "description": "Two strong stone towers surround a heavy wooden gate set into the city wall, to guard against the goblins that lurk in the southern forests.  You can exit the city to the south, if you dare, or walk down the concourse to the east or west. ",
+  "south": 256,
+  "north": null,
+  "east": 129,
+  "west": 128,
+  "object": 365,
+  "starting": false
+},
+{
+  "id": 256,
+  "name": "Outside the South Gate of Midgaard",
+  "description": "You are standing outside the strong wooden gate on the southern walls of Midgaard.  Guards eye you suspiciously from the two towers on either side of the gate, as they stand watch to protect the city from the goblins of this forest.  The trees and goblins of the Miden'nir are south, the gate back to  Migaard lies north. ",
+  "south": null,
+  "north": 255,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 257,
+  "name": "Wall Road",
+  "description": "You are walking along wall road, just north of the west gate of Midgaard.   The road continues along the western wall to the north, towards an intersection with a busy Clan street. ",
+  "south": 40,
+  "north": 258,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 258,
+  "name": "Wall Road",
+  "description": "Wall road intersects with a crowded Clan Road here, filled with shops and artisans.  The street stretches off to the east, towards the far wall of the city.  Wall road continues to the north and south. ",
+  "south": 257,
+  "north": 259,
+  "east": 301,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 259,
+  "name": "Wall Road",
+  "description": "You are walking along wall road, which extends along the inside of the western wall of Midgaard.  To the south, you can see an intersection with a crowded Clan street.  The northwestern corner of the city wall lies ahead to the north. ",
+  "south": 258,
+  "north": 260,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 260,
+  "name": "The Northwest Corner",
+  "description": "You are standing beneath the northwestern corner of the city wall, on a turn in wall road.  You can head south, towards the west gate, or east, to the  north gate. ",
+  "south": 259,
+  "north": null,
+  "east": 261,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 261,
+  "name": "Wall Road",
+  "description": "The city walls tower over you as walk down wall road, between the northwestern corner of the wall to the west, and the northern gate of Midgaard to the east. ",
+  "south": null,
+  "north": null,
+  "east": 262,
+  "west": 260,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 262,
+  "name": "Inside the North Gate of Midgaard",
+  "description": "Two small towers surround a strong wooden gate, connected by a small stone bridge set with murder holes.  This gate is not as heavily guarded as the  others, as the plains outside are safe to travel.  You can leave midgaard to the north, or continues along wall road to the west and east.  A teeming clan street is visible to the south, and beyond that the graceful spires of the Temple of Mota, but there is no way to reach them from here. ",
+  "south": null,
+  "north": 268,
+  "east": 263,
+  "west": 261,
+  "object": 365,
+  "starting": false
+},
+{
+  "id": 263,
+  "name": "Wall Road",
+  "description": "You are walking along wall road, between the northern gate of the city and the northeastern corner of the city walls.  You can see bloodstains on the road... better be on guard for thieves. ",
+  "south": null,
+  "north": null,
+  "east": 264,
+  "west": 262,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 264,
+  "name": "The Northeast Corner",
+  "description": "Wall road turns the corner here, as you pass by the northeastern edge of the city wall.  The north gate lies to your west, and the road south leads to the eastern gate of Midgaard. ",
+  "south": 265,
+  "north": null,
+  "east": null,
+  "west": 263,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 265,
+  "name": "Wall Road",
+  "description": "Just south of you is an intersection with a crowded clan street.  The  eastern wall of Midgaard is beside you, and to the north you can see the  northeast corner of the city wall. ",
+  "south": 266,
+  "north": 264,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 266,
+  "name": "Wall Road",
+  "description": "Here, wall road meets up with a busy clan street heading off towards the  west, and the far wall of the city.  You can smell spices, perfume, freshly cured hide, and other strange scents, all mingle together in one heady aroma. Wall road continues to the north and south. ",
+  "south": 267,
+  "north": 265,
+  "east": null,
+  "west": 316,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 267,
+  "name": "Wall Road",
+  "description": "You are near the center of wall road, just north of the east gate of the city. To the north, you can see an intersection with a crowded clan street. The guards at the gate eye you suspiciously from afar. ",
+  "south": 41,
+  "north": 266,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 268,
+  "name": "Outside the North Gate of Midgaard",
+  "description": "You stand outside the north gate of the walled city of Midgaard.  A dusty  trail is visibile to the north, it stretches around the walls of the city.   Further north are the wide expanses of the northern plains, leading to the  village of Ofcol.  You can return to Midgaard to the south. ",
+  "south": 262,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 270,
+  "name": "On the Concourse",
+  "description": "The strong stone walls of Midgaard rise up to the west, keeping evil at bay. The concourse heads towards a bridge to the north, and continues south  alongside a beautiful park. ",
+  "south": 271,
+  "north": 100,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 271,
+  "name": "On the Concourse near the park",
+  "description": "You are walking down the Concoruse, along the western wall of Midgaard.  To the north, the road passes by a beautiful park, to the south, you can see the southwest corner of the city wall. ",
+  "south": 127,
+  "north": 270,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 272,
+  "name": "On the Concourse at Penny Lane",
+  "description": "You are on a road leading around the inner walls of Midgaard.  To the north, the concourse heads towards a bridge into northern Midgaard.  To the south,  you can see an intersection with Elm Street.  The quaint paved streets of Penny Lane lie west. ",
+  "south": 273,
+  "north": 104,
+  "east": null,
+  "west": 140,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 273,
+  "name": "On the Concourse at Elm Street",
+  "description": "The air grows chill as you pass near the Elm Street graveyard.  The walls of Midgaard are to the east, and the concourse continues to the north and south. To your west, you see Elm Street at the graveyard entrance. ",
+  "south": 130,
+  "north": 272,
+  "east": null,
+  "west": 124,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 301,
+  "name": "Clan Road",
+  "description": "You are standing on the western end of Clan Road.  The traffic here   is light.  This is a quieter section of Midgaard.  You can hear the sound of haggling coming from the east. ",
+  "south": null,
+  "north": null,
+  "east": 302,
+  "west": 258,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 302,
+  "name": "Clan Road",
+  "description": "You are walking along Clan Road.  To the south of you is the money changer.   Clan Road continues on to the east and the west.   ",
+  "south": 334,
+  "north": null,
+  "east": 303,
+  "west": 301,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 303,
+  "name": "Clan Road",
+  "description": "The shops on this stretch of Clan road are long-closed and boarded up. Not much traffic passes through this part, as there is nothing to buy.   ",
+  "south": null,
+  "north": null,
+  "east": 314,
+  "west": 302,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 314,
+  "name": "Clan Road",
+  "description": "Noise and light abound on this part of Clan Road.  Clan road continues off to the east and west. ",
+  "south": null,
+  "north": null,
+  "east": 315,
+  "west": 303,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 315,
+  "name": "Clan Road",
+  "description": "Clan Road seems to widen here slightly, allowing more traffic to  travel through the area.  To the south is another entrance to the busy pub.  This door is also open wide and spilling forth the sounds of happy patrons.  Clan Road continues to the east and west. ",
+  "south": 356,
+  "north": null,
+  "east": 316,
+  "west": 314,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 316,
+  "name": "Clan Road",
+  "description": "You are at the eastern end of Clan Road.  To the east of you, the   tall wall around the city looms up before you and casts its shadow on you.  Clan Road continues to the west.   ",
+  "south": null,
+  "north": null,
+  "east": 266,
+  "west": 315,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 334,
+  "name": "A Money Changer's Room",
+  "description": "A few strategically placed lanterns keep this place well-lit in the  absence of any windows.  The room is surprisingly well appointed with   tapestries hanging on the walls.  You'd wager your life the moneylender's guards are behind them, as there are none here.  The moneylender himself works from behind a large desk, no doubt holding a fortune in gold and silver. A smallish sign hangs on the wall, lettered in common. ",
+  "south": null,
+  "north": 302,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 352,
+  "name": "Grebe's Tavern",
+  "description": "Dive.  That's all you can say about this place; its a dive.  You step carefully over the dead and/or drunk sailors on the floor toward the center of the room.  There's no decorations on the wall; they've all been ripped down in anger or for use as weapons at one time or another.  Looking around, you search vainly for a clean table to sit at, and then give up. ",
+  "south": 26,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": 200,
+  "starting": false
+},
+{
+  "id": 355,
+  "name": "Andy's Pub",
+  "description": "The busy pub is filled with patrons.  People are laughing and singing. A minstrel plays his lute in another part of the pub, and a few people are even dancing.  Andy, the pubs owner, wanders around and checks to see that the needs of his customers are met.  The bar is to your south.  East of you is another section of the pub.  You know that there are rooms to be had somewhere around here... ",
+  "south": 357,
+  "north": null,
+  "east": 356,
+  "west": null,
+  "object": 200,
+  "starting": false
+},
+{
+  "id": 356,
+  "name": "A Room in the Pub",
+  "description": "This part of the pub is filled with dancing and singing.  A wandering minstrel is on a chair in a corner with his lute.  A busty red headed woman is standing near him and singing a tale of comedic heroism. Drunk men sit laughing at their tables and busy bar maids weave through the crowd with full mugs and horns of ale and mead.  Another part of the pub is located to your west. The bar is to the south.  A set of steps occupy in a corner of the room.  They lead up to the inn section of this prosperous establishment. ",
+  "south": 358,
+  "north": 315,
+  "east": null,
+  "west": 355,
+  "object": 200,
+  "starting": false
+},
+{
+  "id": 357,
+  "name": "The Bar",
+  "description": "A long mahogany bar is set in the back of the pub.  Mugs line a shelf behind the bar.  Bottles of strong, nasty looking liquids decorate one of the lower shelves.  A large cask rests on a table behind the bar.  A strong but friendly-looking bartender stands next to the cask polishing glasses.  A couple of the bar maids stand in a corner and throw the most inviting glances your way. A sign is on the wall. ",
+  "south": null,
+  "north": 355,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 358,
+  "name": "The Bar",
+  "description": "A long mahogany bar is set in the back of the pub.  Mugs line a shelf behind the bar.  Bottles of strong, nasty looking liquids decorate one of the lower shelves.  A large cask rests on a table behind the bar.  A strong but friendly looking bartender stands next to the cask polishing glasses.  A couple of the bar maids stand in a corner and throw the most inviting glances your way. ",
+  "south": null,
+  "north": 356,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+},
+{
+  "id": 359,
+  "name": "The Inn",
+  "description": "You are standing upstairs from Andy's Pub at Andy's Inn.  A few chairs and a couple of end tables give the room a `homey' atmosphere.  A large stone fireplace burns brightly against one wall and warms the room.  A large oak desk is nestled in one corner of the room.  A small man with wire-framed glasses sits behind the desk working dilligently on his books. He looks up as you enter the room.  He looks at you quizzically.  He is probably waiting for you to ask him for a room. ",
+  "south": null,
+  "north": null,
+  "east": null,
+  "west": null,
+  "object": null,
+  "starting": false
+}
+
+ ],
+ "objects": [
+	{
+	    "id": 0,
+	    "name": "barrel beer",
+	    "description": "A beer barrel has been left here."
+	},
+	{
+	    "id": 1,
+	    "name": "bottle beer",
+	    "description": "A beer bottle has been left here."
+	},
+	{
+	    "id": 2,
+	    "name": "bottle ale",
+	    "description": "A dark bottle of ale has been left here."
+	},
+	{
+	    "id": 3,
+	    "name": "bottle firebreather",
+	    "description": "A bottle of firebreather has been left here."
+	},
+	{
+	    "id": 4,
+	    "name": "bottle local",
+	    "description": "A dark bottle has been left here."
+	},
+	{
+	    "id": 5,
+	    "name": "scimitar blade",
+	    "description": "Hassan's scimitar lies upon the ground, waiting for its owner."
+	},
+	{
+	    "id": 6,
+	    "name": "stone",
+	    "description": "Somebody left their Clan Stone here."
+	},
+	{
+	    "id": 9,
+	    "name": "potpie pot pie",
+	    "description": "A big pot pie has been left here."
+	},
+	{
+	    "id": 10,
+	    "name": "pit",
+	    "description": "A pit for sacrifices is in front of the altar."
+	},
+	{
+	    "id": 11,
+	    "name": "bread",
+	    "description": "A loaf of bread is here. It doesn't look too stale."
+	},
+	{
+	    "id": 12,
+	    "name": "cinnamon roll",
+	    "description": "A piping hot cinnamon roll is here. It looks delicious!"
+	},
+	{
+	    "id": 13,
+	    "name": "cookies",
+	    "description": "A plate of chocolate chip cookies is here."
+	},
+	{
+	    "id": 14,
+	    "name": "danish blueberry",
+	    "description": "A scrumptious blueberry danish is here."
+	},
+	{
+	    "id": 20,
+	    "name": "dagger",
+	    "description": "A dagger with a long thin blade is here."
+	},
+	{
+	    "id": 21,
+	    "name": "sword small",
+	    "description": "A small sword lies here."
+	},
+	{
+	    "id": 22,
+	    "name": "sword long",
+	    "description": "A long sword has been left here."
+	},
+	{
+	    "id": 23,
+	    "name": "club",
+	    "description": "A stout wooden club is here."
+	},
+	{
+	    "id": 24,
+	    "name": "mace heavy",
+	    "description": "A heavy iron mace is here."
+	},
+	{
+	    "id": 25,
+	    "name": "axe hand",
+	    "description": "A small hand axe lies forgotten on the floor."
+	},
+	{
+	    "id": 26,
+	    "name": "axe battle",
+	    "description": "A large steel axe rests on the ground."
+	},
+	{
+	    "id": 27,
+	    "name": "spear",
+	    "description": "A long spear leans against the wall."
+	},
+	{
+	    "id": 28,
+	    "name": "staff",
+	    "description": "A stout wooden staff lies on the floor."
+	},
+	{
+	    "id": 29,
+	    "name": "flail",
+	    "description": "A small iron flail is here."
+	},
+	{
+	    "id": 30,
+	    "name": "torch",
+	    "description": "A large torch."
+	},
+	{
+	    "id": 31,
+	    "name": "lantern",
+	    "description": "A hooded brass lantern has been left here."
+	},
+	{
+	    "id": 32,
+	    "name": "bag",
+	    "description": "A small bag."
+	},
+	{
+	    "id": 33,
+	    "name": "box",
+	    "description": "A small box."
+	},
+	{
+	    "id": 39,
+	    "name": "scroll cancellation",
+	    "description": "A rolled vellum scroll is here."
+	},
+	{
+	    "id": 40,
+	    "name": "scroll identify",
+	    "description": "A scroll has carelessly been left here."
+	},
+	{
+	    "id": 41,
+	    "name": "potion yellow",
+	    "description": "A small yellow potion has carelessly been left here."
+	},
+	{
+	    "id": 42,
+	    "name": "scroll recall",
+	    "description": "A scroll has carelessly been left here."
+	},
+	{
+	    "id": 43,
+	    "name": "ring protection",
+	    "description": "an enchanted ring of protection sits on the floor."
+	},
+	{
+	    "id": 44,
+	    "name": "wand magic missile missiles",
+	    "description": "a wooden stick lies on the ground."
+	},
+	{
+	    "id": 45,
+	    "name": "jacket scale mail",
+	    "description": "A scale mail jacket is lying on the ground."
+	},
+	{
+	    "id": 46,
+	    "name": "bronze breast plate",
+	    "description": "A bronze breast plate is lying on the ground."
+	},
+	{
+	    "id": 47,
+	    "name": "bronze breast plate",
+	    "description": "A special bronze breast plate is lying on the ground."
+	},
+	{
+	    "id": 50,
+	    "name": "raft",
+	    "description": "A raft has been left here."
+	},
+	{
+	    "id": 51,
+	    "name": "canoe",
+	    "description": "A canoe has been left here."
+	},
+	{
+	    "id": 52,
+	    "name": "bracer strong leather",
+	    "description": "A strong leather bracer is here."
+	},
+	{
+	    "id": 53,
+	    "name": "belt leather",
+	    "description": "A soft leather belt is here."
+	},
+	{
+	    "id": 54,
+	    "name": "girdle leather",
+	    "description": "A wide leather girdle is here."
+	},
+	{
+	    "id": 60,
+	    "name": "jerkin leather",
+	    "description": "A leather jerkin is lying on the ground."
+	},
+	{
+	    "id": 61,
+	    "name": "cap leather",
+	    "description": "A leather cap is lying on the ground."
+	},
+	{
+	    "id": 62,
+	    "name": "pants leather",
+	    "description": "A pair of leather pants is lying on the ground."
+	},
+	{
+	    "id": 63,
+	    "name": "boots leather",
+	    "description": "A pair of leather boots lies here."
+	},
+	{
+	    "id": 64,
+	    "name": "gloves leather",
+	    "description": "A pair of leather gloves is lying on the ground."
+	},
+	{
+	    "id": 65,
+	    "name": "sleeves leather",
+	    "description": "A pair of leather sleeves is lying on the ground."
+	},
+	{
+	    "id": 66,
+	    "name": "jerkin hard leather",
+	    "description": "A hard leather jerkin is lying on the ground."
+	},
+	{
+	    "id": 67,
+	    "name": "cap hard leather",
+	    "description": "A hard leather cap is lying on the ground."
+	},
+	{
+	    "id": 68,
+	    "name": "pants hard leather",
+	    "description": "A pair of hard leather pants is lying on the ground."
+	},
+	{
+	    "id": 69,
+	    "name": "boots hard leather",
+	    "description": "A pair of hard leather boots lies here."
+	},
+	{
+	    "id": 70,
+	    "name": "gloves hard leather",
+	    "description": "A pair of hard leather gloves is lying on the ground."
+	},
+	{
+	    "id": 71,
+	    "name": "sleeves hard leather",
+	    "description": "A pair of hard leather sleeves is lying on the ground."
+	},
+	{
+	    "id": 72,
+	    "name": "jerkin scale mail",
+	    "description": "A scale mail jerkin is lying on the ground."
+	},
+	{
+	    "id": 73,
+	    "name": "coif scale mail",
+	    "description": "A scale mail coif is lying on the ground."
+	},
+	{
+	    "id": 74,
+	    "name": "skirt scale mail",
+	    "description": "A long scale mail skirt is lying on the ground."
+	},
+	{
+	    "id": 75,
+	    "name": "boots reinforced",
+	    "description": "A pair of reinforced boots lies here."
+	},
+	{
+	    "id": 76,
+	    "name": "gloves reinforced",
+	    "description": "A pair of reinforced gloves is lying on the ground."
+	},
+	{
+	    "id": 77,
+	    "name": "sleeves scale mail",
+	    "description": "A pair of scale mail sleeves is lying on the ground."
+	},
+	{
+	    "id": 80,
+	    "name": "potion heal healing",
+	    "description": "A potion of healing is here."
+	},
+	{
+	    "id": 81,
+	    "name": "potion sanct sanctuary",
+	    "description": "A potion of sanctuary is here."
+	},
+	{
+	    "id": 82,
+	    "name": "potion divine",
+	    "description": "A potion of divine protection is here."
+	},
+	{
+	    "id": 83,
+	    "name": "potion cure light",
+	    "description": "A potion of cure light wounds is here."
+	},
+	{
+	    "id": 84,
+	    "name": "potion cure serious",
+	    "description": "A potion of cure serious wounds is here."
+	},
+	{
+	    "id": 85,
+	    "name": "potion cure critical critic",
+	    "description": "A potion of cure critical wounds is here."
+	},
+	{
+	    "id": 86,
+	    "name": "potion antidote bottle",
+	    "description": "A bottle of antidote is here."
+	},
+	{
+	    "id": 87,
+	    "name": "potion cure blindness",
+	    "description": "A potion of cure blindness is here."
+	},
+	{
+	    "id": 88,
+	    "name": "vial holy water",
+	    "description": "A vial of holy water is here."
+	},
+	{
+	    "id": 89,
+	    "name": "potion armor",
+	    "description": "A potion of armor is here."
+	},
+	{
+	    "id": 90,
+	    "name": "potion negation",
+	    "description": "A potion of negation is here."
+	},
+	{
+	    "id": 91,
+	    "name": "potion fly flying",
+	    "description": "A potion of flying is here."
+	},
+	{
+	    "id": 92,
+	    "name": "potion true sight",
+	    "description": "A potion of true sight is here."
+	},
+	{
+	    "id": 97,
+	    "name": "shield small metal",
+	    "description": "A small metal shield is lying on the ground."
+	},
+	{
+	    "id": 100,
+	    "name": "tea cup",
+	    "description": "A cup has been set here."
+	},
+	{
+	    "id": 101,
+	    "name": "coffee cup",
+	    "description": "A cup has been set here."
+	},
+	{
+	    "id": 102,
+	    "name": "water cup",
+	    "description": "A cup has been set here."
+	},
+	{
+	    "id": 105,
+	    "name": "bracer bronze",
+	    "description": "A bronze bracer is lying on the ground."
+	},
+	{
+	    "id": 106,
+	    "name": "bracer iron",
+	    "description": "An iron bracer is lying on the ground."
+	},
+	{
+	    "id": 110,
+	    "name": "shirt chain mail",
+	    "description": "A chain mail shirt is lying on the ground."
+	},
+	{
+	    "id": 111,
+	    "name": "coif chain mail",
+	    "description": "A chain mail coif is lying on the ground."
+	},
+	{
+	    "id": 112,
+	    "name": "skirt chain mail",
+	    "description": "A long chain mail skirt is lying on the ground."
+	},
+	{
+	    "id": 113,
+	    "name": "boots ironbound",
+	    "description": "A pair of iron-bound boots lies here."
+	},
+	{
+	    "id": 114,
+	    "name": "gauntlets chain mail",
+	    "description": "A pair of chain mail gauntlets is lying on the ground."
+	},
+	{
+	    "id": 115,
+	    "name": "sleeves chain mail",
+	    "description": "A pair of chain mail sleeves is lying on the ground."
+	},
+	{
+	    "id": 116,
+	    "name": "shield large metal",
+	    "description": "A large metal shield is lying on the ground."
+	},
+	{
+	    "id": 117,
+	    "name": "shield small wooden",
+	    "description": "A small wooden shield is lying on the ground."
+	},
+	{
+	    "id": 120,
+	    "name": "key iron",
+	    "description": "An iron key has been left here."
+	},
+	{
+	    "id": 121,
+	    "name": "key rusty",
+	    "description": "A rusty key has been left here."
+	},
+	{
+	    "id": 122,
+	    "name": "key wooden",
+	    "description": "A wooden key has been left here."
+	},
+	{
+	    "id": 123,
+	    "name": "key brass",
+	    "description": "A brass key has been left here."
+	},
+	{
+	    "id": 124,
+	    "name": "sword long",
+	    "description": "A long sword has been left here."
+	},
+	{
+	    "id": 129,
+	    "name": "hand cuffs",
+	    "description": "A pair of hand cuffs has been left here."
+	},
+	{
+	    "id": 130,
+	    "name": "desk drawer",
+	    "description": "A desk is set against the western wall."
+	},
+	{
+	    "id": 131,
+	    "name": "safe",
+	    "description": "A safe is placed in a dark corner of the room."
+	},
+	{
+	    "id": 132,
+	    "name": "silver coins",
+	    "description": "A lot of silver is here."
+	},
+	{
+	    "id": 133,
+	    "name": "city key",
+	    "description": "The very big City Key is lying here."
+	},
+	{
+	    "id": 134,
+	    "name": "bench",
+	    "description": "A white-painted wooden bench is standing here."
+	},
+	{
+	    "id": 135,
+	    "name": "huge rubber duck",
+	    "description": "A huge green and blue spotted rubber duck with a mohawk duck sits here. Is it alive?"
+	},
+	{
+	    "id": 136,
+	    "name": "coins",
+	    "description": "A small pile of coins lies here."
+	},
+	{
+	    "id": 137,
+	    "name": "key steel",
+	    "description": "A large steel key has been left here."
+	},
+	{
+	    "id": 138,
+	    "name": "skin water buffalo",
+	    "description": "A bloated dead buffalo is on the floor."
+	},
+	{
+	    "id": 139,
+	    "name": "letter resignation",
+	    "description": "The receptionist's letter of resignation is taped to the wall."
+	},
+	{
+	    "id": 140,
+	    "name": "notice liquidation bank",
+	    "description": "The bank's notice of liquidation is taped to the wall."
+	},
+	{
+	    "id": 150,
+	    "name": "coffee cup cinnamon",
+	    "description": "A piping hot cup of cinnamon coffee is here."
+	},
+	{
+	    "id": 151,
+	    "name": "soup bowl",
+	    "description": "A nice hot bowl of chicken noodle soup is here."
+	},
+	{
+	    "id": 152,
+	    "name": "bowl beef stew",
+	    "description": "A bowl of nice thick beef stew, with lots of vegetables, steams here."
+	},
+	{
+	    "id": 153,
+	    "name": "biscuit",
+	    "description": "A yummy biscuit, covered with butter, is here."
+	},
+	{
+	    "id": 154,
+	    "name": "beer bottle killian irish red",
+	    "description": "A dark-tinted bottle of beer is here."
+	},
+	{
+	    "id": 155,
+	    "name": "comfy wooden bed",
+	    "description": "A comfy wooden bed is here."
+	},
+	{
+	    "id": 161,
+	    "name": "key white",
+	    "description": "A white key has been left here."
+	},
+	{
+	    "id": 162,
+	    "name": "map midgaard",
+	    "description": "A rolled up map is here."
+	},
+	{
+	    "id": 163,
+	    "name": "map thera",
+	    "description": "A rolled up map is here."
+	},
+	{
+	    "id": 164,
+	    "name": "map southern midgaard",
+	    "description": "A rolled up map is here."
+	},
+	{
+	    "id": 165,
+	    "name": "map dwarven kingdom dwarf",
+	    "description": "A rolled up map is here."
+	},
+	{
+	    "id": 166,
+	    "name": "map moria first",
+	    "description": "A rolled up map is here."
+	},
+	{
+	    "id": 167,
+	    "name": "map new thalos",
+	    "description": "A rolled up map is here."
+	},
+	{
+	    "id": 168,
+	    "name": "map olympus",
+	    "description": "A rolled up map is here."
+	},
+	{
+	    "id": 200,
+	    "name": "juke box music",
+	    "description": "A neon-lit juke box sits in the corner of the bar."
+	},
+	{
+	    "id": 237,
+	    "name": "pit",
+	    "description": "A pit for sacrifices is in front of the altar."
+	},
+	{
+	    "id": 238,
+	    "name": "skin water buffalo",
+	    "description": "A bloated dead buffalo is on the floor."
+	},
+	{
+	    "id": 240,
+	    "name": "scroll identify",
+	    "description": "A scroll has carelessly been left here."
+	},
+	{
+	    "id": 241,
+	    "name": "potion yellow",
+	    "description": "A small yellow potion has carelessly been left here."
+	},
+	{
+	    "id": 242,
+	    "name": "scroll recall",
+	    "description": "A scroll has carelessly been left here."
+	},
+	{
+	    "id": 280,
+	    "name": "potion heal healing",
+	    "description": "A potion of healing is here."
+	},
+	{
+	    "id": 281,
+	    "name": "potion sanct sanctuary",
+	    "description": "A potion of sanctuary is here."
+	},
+	{
+	    "id": 282,
+	    "name": "potion divine",
+	    "description": "A potion of divine protection is here."
+	},
+	{
+	    "id": 283,
+	    "name": "potion cure light",
+	    "description": "A potion of cure light wounds is here."
+	},
+	{
+	    "id": 284,
+	    "name": "potion cure serious",
+	    "description": "A potion of cure serious wounds is here."
+	},
+	{
+	    "id": 285,
+	    "name": "potion cure critical critic",
+	    "description": "A potion of cure critical wounds is here."
+	},
+	{
+	    "id": 286,
+	    "name": "potion antidote bottle",
+	    "description": "A bottle of antidote is here."
+	},
+	{
+	    "id": 287,
+	    "name": "potion cure blindness",
+	    "description": "A potion of cure blindness is here."
+	},
+	{
+	    "id": 288,
+	    "name": "vial holy water",
+	    "description": "A vial of holy water is here."
+	},
+	{
+	    "id": 289,
+	    "name": "potion armor",
+	    "description": "A potion of armor is here."
+	},
+	{
+	    "id": 290,
+	    "name": "potion negation",
+	    "description": "A potion of negation is here."
+	},
+	{
+	    "id": 291,
+	    "name": "potion fly flying",
+	    "description": "A potion of flying is here."
+	},
+	{
+	    "id": 292,
+	    "name": "potion true sight",
+	    "description": "A potion of true sight is here."
+	},
+	{
+	    "id": 349,
+	    "name": "long sword",
+	    "description": "A glowing long sword is here."
+	},
+	{
+	    "id": 350,
+	    "name": "sword standard merc",
+	    "description": "You see a standard issue sword here."
+	},
+	{
+	    "id": 351,
+	    "name": "dagger standard merc",
+	    "description": "You see a standard issue dagger here."
+	},
+	{
+	    "id": 352,
+	    "name": "mace standard merc",
+	    "description": "You see a standard issue mace here."
+	},
+	{
+	    "id": 353,
+	    "name": "vest standard merc",
+	    "description": "You see a standard issue vest here."
+	},
+	{
+	    "id": 354,
+	    "name": "shield standard merc",
+	    "description": "You see a standard issue shield here."
+	},
+	{
+	    "id": 355,
+	    "name": "cloak standard merc",
+	    "description": "You see a standard issue cloak here."
+	},
+	{
+	    "id": 356,
+	    "name": "helmet standard merc",
+	    "description": "You see a standard issue helmet here."
+	},
+	{
+	    "id": 357,
+	    "name": "leggings standard merc",
+	    "description": "You see a pair of standard issue leggings here."
+	},
+	{
+	    "id": 358,
+	    "name": "boots standard merc",
+	    "description": "You see a pair of standard issue boots here."
+	},
+	{
+	    "id": 359,
+	    "name": "gloves standard merc",
+	    "description": "You see a pair of standard issue gloves here."
+	},
+	{
+	    "id": 360,
+	    "name": "sleeves standard merc",
+	    "description": "You see a pair of standard issue sleeves here."
+	},
+	{
+	    "id": 361,
+	    "name": "cape standard merc",
+	    "description": "You see a standard issue cape here."
+	},
+	{
+	    "id": 362,
+	    "name": "belt standard merc",
+	    "description": "You see a standard issue belt here."
+	},
+	{
+	    "id": 363,
+	    "name": "bracer standard merc",
+	    "description": "You see a standard issue bracer here."
+	},
+	{
+	    "id": 364,
+	    "name": "ring signet",
+	    "description": "You see a ring with a strange symbol on the floor."
+	},
+	{
+	    "id": 365,
+	    "name": "banner war merc",
+	    "description": "A war banner is on the floor here."
+	},
+	{
+	    "id": 371,
+	    "name": "ring diamond wedding",
+	    "description": "Vanya's diamond wedding ring has been left here."
+	},
+	{
+	    "id": 372,
+	    "name": "band gold wedding",
+	    "description": "House's gold wedding band has been left here."
+	},
+	{
+	    "id": 373,
+	    "name": "pearl",
+	    "description": "A small but well-formed pearl lies here."
+	},
+	{
+	    "id": 374,
+	    "name": "garnet gem",
+	    "description": "A garnet catches your eye."
+	},
+	{
+	    "id": 375,
+	    "name": "emerald gem",
+	    "description": "A deep green emerald winks at you."
+	},
+	{
+	    "id": 376,
+	    "name": "ruby gem",
+	    "description": "A beautiful, if small, ruby is here."
+	},
+	{
+	    "id": 377,
+	    "name": "diamond gem",
+	    "description": "A diamond catches and reflects the lighting."
+	},
+	{
+	    "id": 378,
+	    "name": "opal",
+	    "description": "A lustrous opal reminds you of far-off places."
+	}
+    ]
+    
+}

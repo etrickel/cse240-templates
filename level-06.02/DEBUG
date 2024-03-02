@@ -1,0 +1,6 @@
+Testing Unit Test #2 Expecting Test to Pass = true
+make: *** No targets.  Stop.
+
+[38;5;3m	[38;5;3mFAILED to compile [0m 
+[0m
+########## Test Output ##########

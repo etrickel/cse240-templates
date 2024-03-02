@@ -1,0 +1,53 @@
+{"rooms":
+ [
+        {
+            "id": 1,
+            "name": "The Temple Of Mota",
+            "description": "You are in the southern end of the temple hall in the Temple of Mota. The temple has been constructed from giant marble blocks, eternal in appearance, and most of the walls are covered by ancient wall paintings picturing gods, giants and peasants. Large steps lead down through the grand temple gate, descending the huge mound upon which the temple is built and ends on the temple square below. Equally large steps lead UP through a small door into the ENTRANCE to MUD SCHOOL.  (type 'up' to go to MUD SCHOOL.)  A small plaque is on this wall.",
+            "south": null,
+            "north": 4,
+            "east": 3,
+            "west": null,
+            "object": 5,
+            "starting": true
+        },
+     {
+	    "id": 3,
+	    "name": "Cleric's Bar",
+	    "description": "The bar is one of the finest in the land, lucky it is members only.  Fine furniture is set all around the room.  A small sign is hanging on the wall. ",
+	    "south": null,
+	    "north": null,
+	    "east": 1,
+	    "west": 1,
+	    "object": 22,
+	    "starting": false
+	},
+	{
+	    "id": 4,
+	    "name": "Entrance to Cleric's Guild",
+	    "description": "The entrance hall is a small modest room, reflecting the true nature of the Clerics.  The exit leads east to the temple square.  A small entrance to the bar is in the northern wall. ",
+	    "south": 1,
+	    "north": null,
+	    "east": null,
+	    "west": null,
+	    "object": 365,
+	    "starting": false
+	}
+ ],
+ "objects":
+ [
+     	{
+	    "id": 5,
+	    "name": "scimitar blade",
+	    "description": "Hassan's scimitar lies upon the ground, waiting for its owner."
+	},	{
+	    "id": 22,
+	    "name": "sword long",
+	    "description": "A long sword has been left here."
+	},
+     	{
+	    "id": 365,
+	    "name": "banner war merc",
+	    "description": "A war banner is on the floor here."
+	}
+ ]}
